@@ -22,7 +22,7 @@ The following are some things I would expand upon or implement differently given
 
 #### Building and running the application
 
-1. Clone the project from GitHub: []()
+1. Clone the project from GitHub: `git clone https://github.com/eoconnor/TreeTopCommonsService.git`
 2. From the root directory of the project, run: `mvn clean package`. This will create a jar file in the directory `target` called `TreeTopCommonsService.jar`.
 3. Run the command `java -jar TreeTopCommonsService.jar`. The service is now running on port 8080. You should see some startup messages logged to the terminal window.
 4. Using `curl` or a REST client of you choice, issue requests against the url `http://localhost:8080/treetop/organizations`; e.g.:
